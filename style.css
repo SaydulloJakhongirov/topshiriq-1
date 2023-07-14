@@ -225,7 +225,7 @@ header {
     color: #005FA3;
 }
 
-.menu-cart-title{
+.menu-cart-title {
     display: grid;
     grid-template-columns: auto auto;
     display: flex;
@@ -266,7 +266,7 @@ header {
     font-size: 14px;
 }
 
-.menu-cart:hover{
+.menu-cart:hover {
     background: #005FA3;
     color: #fff;
     transition: 0.7s;
@@ -288,19 +288,269 @@ header {
     font-size: 18px;
 }
 
+.mikrosoft-title {
+    background: #EBEBEB;
+    padding: 140px;
+    transition: 1s;
+}
+
+.title-text-1 {
+    color: var(--bdbdbd, #BDBDBD);
+    font-family: "Lato";
+    font-size: 24px;
+}
+
+.title-h2-text {
+    padding: 40px 0;
+    font-size: 48px;
+}
+
+.image-title {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.slider-t {
+    background-color: #8ebada;
+    height: 13px;
+    width: 13px;
+    border-radius: 20px;
+}
+
+.title-slider {
+    display: flex;
+    gap: 30px;
+}
+
+.slider-b {
+    background-color: #005FA3;
+    height: 13px;
+    width: 13px;
+    border-radius: 20px;
+}
+
+.title-btn-group {
+    display: flex;
+}
+
+.title-btn {
+    background: var(--accent, #005FA3);
+    border: none;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+.title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-group-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.title-btn:hover {
+    background: var(--accent, #99cbee);
+    transition: 0.7s;
+}
+
+.title-hero {
+    padding: 140px;
+    transition: 1s;
+}
+
+.cart-tittle-hero {
+    padding: 45px 100px;
+    background: #EBEBEB;
+    width: 1110px;
+    height: 320px;
+}
+
+.hero-title-text {
+    font-family: "Lato";
+    font-size: 18px;
+}
+
+.hero-title-p {
+    color: #4F4F4F;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.hero-title-1 {
+    padding-top: 58px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero-title-p {
+    color: #000;
+    font-family: "Lato";
+    font-size: 18px;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 48px;
+}
+
+.footer-group-a {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    border: solid 1px #fff;
+    width: 255px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    outline: none;
+    color: #BDBDBD;
+    background: none;
+}
+
+.text-input {
+    color: var(--white, #FFF);
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+.footer-text-p {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 60px;
+    max-width: 445px;
+}
+
+.footer-a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    color: #fff;
+    font-family: "Lato";
+    white-space: nowrap;
+    font-size: 21px;
+}
+
+.textaria {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+
+.text-aria {
+    background: none;
+    border-top: none;
+    border-left: none;
+    color: #BDBDBD;
+    border-right: none;
+    outline: none;
+}
+
+.hero-1 {
+    background-image: url(./image/Rectangle.png);
+    padding: 170px;
+    height: 570px;
+    background-size: cover;
+    width: 100%;
+    transition: 1s;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-inputs {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-button {
+    color: #fff;
+    background-color: #005FA3;
+    padding: 13px 30px;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+}
+
+.up-text-1 {
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.up-text{
+    padding: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-btn {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
 @media screen and (max-width:1240px) {
-    .companiya{
+    .companiya {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .hero-title{
+    .hero-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        background-image: url(./image/Rectangle.png);
+        height: 900px;
+    }
+
+    .cart-tittle-hero {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .hero-title-p {
+        font-size: 13px;
+    }
+
+    .logo-title-text {
         text-align: center;
     }
 
-    .color-1{
+    .image-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-title {
+        text-align: center;
+    }
+
+    .color-1 {
         margin: 0 auto;
     }
 }
@@ -314,9 +564,36 @@ header {
         display: flex;
     }
 
+    .hero-title-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .title-hero {
+        padding: 20px;
+    }
+
+    .title-h2-text {
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
     .column-text {
         font-size: 30px;
     }
+
+    .hero-title-p {
+        font-size: 10px;
+    }
+
+    .image-title {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
 
     .columns {
         padding: 30px;
@@ -338,6 +615,32 @@ header {
         display: none;
     }
 
+    .up-text {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-group-a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .hero-1 {
+        background-image: url(./image/Rectangle.png);
+        height: 100%;
+    }
+
+
     .column-text {
         font-size: 25px;
     }
@@ -345,6 +648,10 @@ header {
     .columns {
         padding: 20px;
         padding-top: 140px;
+    }
+
+    .cart-tittle-hero {
+        padding: 30px;
     }
 
     .header {
@@ -360,6 +667,10 @@ header {
     }
 
     .hero {
+        padding: 70px;
+    }
+
+    .hero-1 {
         padding: 70px;
     }
 
@@ -383,16 +694,46 @@ header {
 }
 
 @media screen and (max-width:580px) {
-    .color-1{
+    .color-1 {
         font-size: 30px;
     }
 
-    .text-1-p{
+    .footer-text {
+        font-size: 30px;
+    }
+
+    .footer-text-p {
+        font-size: 10px;
+    }
+
+    .title-image {
+        width: 150px;
+    }
+
+    .title-text-1 {
+        font-size: 15px;
+    }
+
+    .title-h2-text {
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    .up-text-1{
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .mikrosoft-title {
+        padding: 20px;
+    }
+
+    .text-1-p {
         font-size: 13px;
         padding-top: 15px;
     }
 
-    .companiya{
+    .companiya {
         padding: 20px;
     }
 }
@@ -405,13 +746,34 @@ header {
         grid-row-gap: 50px;
     }
 
-    .columns-menu {
-        display: grid;
-        grid-row-gap: 30px;
+    .up-text{
+        padding: 50px 30px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+
+    .title-group {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
         gap: 30px;
+        margin-top: -30px;
+    }
+
+    .hero-title-p {
+        font-size: 7px;
+    }
+
+    .title-group-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: -30px;
+    }
+
+    .title-image {
+        width: 100px;
     }
 
     .text-c {
@@ -438,7 +800,7 @@ header {
         font-size: 10px;
     }
 
-    .text-1-p{
+    .text-1-p {
         font-size: 10px;
     }
 
