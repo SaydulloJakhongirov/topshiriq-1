@@ -228,6 +228,10 @@ header {
 .menu-cart-title{
     display: grid;
     grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
     gap: 30px;
 }
 
@@ -282,11 +286,6 @@ header {
     max-width: 445px;
     padding-top: 60px;
     font-size: 18px;
-}
-
-.line{
-    border: solid 0.5px blue;
-    max-width: 60px;
 }
 
 @media screen and (max-width:1240px) {
@@ -384,11 +383,6 @@ header {
 }
 
 @media screen and (max-width:580px) {
-    .menu-cart-title{
-        display: flex;
-        flex-direction: column;
-    }
-
     .color-1{
         font-size: 30px;
     }
@@ -411,6 +405,15 @@ header {
         grid-row-gap: 50px;
     }
 
+    .columns-menu {
+        display: grid;
+        grid-row-gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
     .text-c {
         font-size: 15px;
     }
@@ -418,6 +421,11 @@ header {
     .column-image {
         height: 200px;
         width: 100%;
+    }
+
+    .slider-div {
+        display: flex;
+        gap: 30px;
     }
 
     .menu-c {
