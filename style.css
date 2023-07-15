@@ -761,6 +761,11 @@ header {
         margin-top: -30px;
     }
 
+    .hero-1 {
+        padding: 20px;
+        padding-top: 100px;
+    }
+
     .hero-title-p {
         font-size: 7px;
     }
