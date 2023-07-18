@@ -20,8 +20,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 22px 0;
+    padding: 22px 170px;
+    gap: 20px;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
     padding-top: 22px;
+    transition: 1s;
 }
 
 .header-text {
@@ -667,7 +673,7 @@ header {
     }
 
     .hero {
-        padding: 70px;
+        padding: 115px;
     }
 
     .hero-1 {
@@ -766,8 +772,19 @@ header {
         padding-top: 100px;
     }
 
+    .companiya {
+        display: flex;
+        gap: 30px;
+    }
+
+
+    .footer-btn{
+        display: flex;
+        justify-content: center;
+    }
+
     .hero-title-p {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .title-group-1 {
@@ -775,6 +792,10 @@ header {
         flex-direction: column;
         gap: 30px;
         margin-top: -30px;
+    }
+
+    .hero-title-1 {
+        padding-top: 30px;
     }
 
     .title-image {
@@ -832,6 +853,6 @@ header {
     }
 
     .hero-text {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
