@@ -98,20 +98,8 @@ header {
 .btn-1 {
     background: #ffffff88;
     border: none;
-    padding: 10px;
-}
-
-.btn-2 {
-    background: #ffffff88;
-    border: none;
-    padding: 10px;
     transition: 0.7s;
-}
-
-
-.btn-2:hover {
-    background: #ffffffbc;
-    transition: 0.7s;
+    padding: 10px;
 }
 
 .btn-1:hover {
@@ -342,9 +330,9 @@ header {
 }
 
 .title-btn {
-    background: var(--accent, #005FA3);
     border: none;
     padding: 10px;
+    background: var(--accent, #99cbee);
     transition: 0.7s;
 }
 
@@ -362,7 +350,7 @@ header {
 }
 
 .title-btn:hover {
-    background: var(--accent, #99cbee);
+    background: var(--accent, #005FA3);
     transition: 0.7s;
 }
 
