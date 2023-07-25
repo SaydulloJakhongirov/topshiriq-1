@@ -76,6 +76,10 @@ header {
     transition: 1s;
 }
 
+.pt-10px{
+    padding-top: 100px;
+}
+
 .hero-text {
     color: #fff;
     max-width: 589px;
